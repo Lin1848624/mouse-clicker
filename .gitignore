@@ -1,0 +1,30 @@
+# ---- 编译中间文件 ----
+obj/
+*.obj
+*.res
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# ---- 编译产物（通过 GitHub Release 分发）----
+bin/
+*.exe
+
+# ---- 运行时生成的配置 ----
+MouseClicker.ini
+bin/*.ini
+
+# ---- IDE / 编辑器 ----
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln
+*.opensdf
+*.sdf
+
+# ---- 系统 ----
+Thumbs.db
+desktop.ini
